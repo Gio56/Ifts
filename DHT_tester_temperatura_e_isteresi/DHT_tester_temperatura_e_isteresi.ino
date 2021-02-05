@@ -1,3 +1,5 @@
+#include <Servo.h>
+
 // Example testing sketch for various DHT humidity/temperature sensors
 // Written by ladyada, public domain
 
@@ -81,7 +83,7 @@ void loop() {
   //Serial.print(F("°C "));
   //Serial.print(f);
   //Serial.print(F("°F  Heat index: "));
-  Serial.println(hic);
+  Serial.print(hic);
   Serial.print(F("\t"));
   //Serial.print(F("°C "));
   //Serial.print(hif);
